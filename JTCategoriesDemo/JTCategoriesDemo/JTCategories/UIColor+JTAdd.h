@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable UIColor *)colorWithHexString:(NSString *)hexStr;
 + (nullable UIColor *)colorWithHexString:(NSString *)hexStr alpha:(CGFloat)alpha;
 
++ (UIColor *)randomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
